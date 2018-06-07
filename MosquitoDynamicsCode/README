@@ -1,0 +1,12 @@
+Here is the code to compute the extinction probability as a function of alpha (Fig. 5a). F
+rom a terminal window execute the following:
+
+mpif90  MosquitoDynamics.f90
+
+This will create an executable file called a.out. To run the program, type in the terminal:
+
+mpirun -np 4 ./a.out
+
+In order to compute  the extinction probability in Hualien as a function of alpha, open the file MosquitoDynamics.f90 
+with a text editor, and set the value of numCity to 1. Similarly, for Kaohsiung, Taichung, and Taipei, set “numCity  =2”,
+“numCity  =3”,“numCity  =4”, respectively.

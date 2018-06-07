@@ -1,0 +1,10 @@
+Here is the code to calibrate the value of alpha, as described in the Appendix. From a terminal window execute the following:
+
+gfortran Alpha_TableCities.f90 randgen.f
+
+This will create an executable file called a.out. To run the program, type in the terminal
+
+./a.out
+
+The input file should contain the actual daily rainfall time series for one city, which
+correspond to the rainiest month in that city.

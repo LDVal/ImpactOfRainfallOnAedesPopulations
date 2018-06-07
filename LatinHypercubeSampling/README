@@ -1,0 +1,13 @@
+Here is the code to calibrate our mosquito population model using the Latin Hypercube
+Sampling method, as described in the Supporting Information, Section B. From a terminal
+window execute the following:
+
+mpif90 LatinHypercubeSampling.f90
+
+This will create an executable file called a.out. To run the program, type in the terminal
+
+mpirun -np 4 ./a.out
+
+The program generates an output called VarianceLHS.dat, which contains five columns:
+the first four are the explored values of beta, k, Hmax, and Kmax. The last column
+contains the sum of the square distances corresponding to all the cities.
