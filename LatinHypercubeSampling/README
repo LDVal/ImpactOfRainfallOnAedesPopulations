@@ -1,5 +1,5 @@
 Here is the code to calibrate our mosquito population model using the Latin Hypercube
-Sampling method, as described in the Supporting Information, Section B. From a terminal
+Sampling method, as described in the Appendix. From a terminal
 window execute the following:
 
 mpif90 LatinHypercubeSampling.f90
